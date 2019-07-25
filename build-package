@@ -127,8 +127,9 @@ calculate_package_filename() {
       ;;
     debian)
       # TODO: Add arch to the filename (i386, amd64)
-      repo=repository/debian
-      mkdir -p $repo
+      #repo=repository/debian
+      #mkdir -p $repo
+      repo=.
       package_filename=$repo/intellij-idea-$FLAVOR_LOWER-$version.deb
       ;;
   esac
