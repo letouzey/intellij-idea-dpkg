@@ -1,0 +1,13 @@
+#!/bin/sh
+
+## Pierre Letouzey : Idea versions known to work
+
+## Note : -no-jdk and now -no-jbr are versions using the host java installation
+## instead of the JetBrains Runtime (a custom build of java with a few hacks).
+## There used to be font size issue with this -no-jdk, but it seems ok now.
+
+#./build-package -f IC -v 2016.2.5
+#./build-package -f IC -v 2017.2.2
+#./build-package -f IC -v 2017.3.3-no-jdk
+
+./build-package -f IC -v 2019.2-no-jbr
